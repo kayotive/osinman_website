@@ -237,7 +237,7 @@ const TEAM = [
     role: "Vice President",
     quote: "Mr. Truman is a communications specialist with experience in the development sector, specializing in strategic communications, advocacy and digital media.",
     tone: "green",
-    photo: "/images/truman.avif",
+    photo: "/images/truman.jpeg",
   },
   {
     initials: "NRD",

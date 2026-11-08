@@ -110,7 +110,7 @@ const EXECUTIVE_TEAM = [
     name: "Mr. Truman",
     role: "Vice President",
     location: "Abuja, FCT",
-    photo: "/images/truman.avif",
+    photo: "/images/truman.jpeg",
     bio: "Mr. Truman is a communications specialist with experience in the development sector, specializing in strategic communications, advocacy and digital media. He has a strong track record in managing brand communications and reputation, developing IEC materials and delivering impactful campaigns. Through visual storytelling, he crafts compelling narratives that drive change, contributing to initiatives focused on justice sector reforms, inclusive political participation and humanitarian interventions in Nigeria.",
   },
   {
@@ -138,7 +138,7 @@ const EXECUTIVE_TEAM = [
     name: "Mr. Gashon Kumbin Sheni",
     role: "Secretary",
     location: "Plateau, Jos",
-    photo: "/images/sphead.avif",
+    photo: "/images/gashon.jpeg",
     bio: "Mr. Gashon Kumbin Sheni is from Langtang North LGA of Plateau State. A trained Zoologist, he is deeply compassionate about supporting the needy and vulnerable in society. He serves as the Secretary of OSI-NMAN Foundation, where he contributes to effective coordination and administration of the organization’s activities. He is currently based in Jos North, Plateau State",
   },
   {
@@ -173,8 +173,15 @@ const EXECUTIVE_TEAM = [
     name: "Ponchang Paul Jangkam",
     role: "Alumni/Youth/Student leaders",
     location: "Langtang North Plateau State",
-    photo: "/images/ponchang.png",
+    photo: "/images/paul.jpeg",
     bio: "Mr. Ponchang Paul Jangkam is a youth and student leader from Langtang North, Plateau State, and an active member of the Osinman Foundation. As part of the Alumni/Youth/Student Leaders team, Ponchang contributes to youth engagement, leadership development, and initiatives that promote education, community participation, and opportunities for young people.",
+  },
+   {
+    name: "Lot Philemon Dupbin",
+    role: "IT/Alumni",
+    location: "Langtang North Plateau State",
+    photo: "/images/lot.jpeg",
+    bio: "Lot Philemon is a proud Alumni of Osinman Foundation. He now supports by sharing practical IT insights drawn from his experience in the tech industry."
   },
 
 ];
@@ -184,7 +191,7 @@ const LOC_MEMBERS = [
   {
     name: "Mr. Danbana Nansel Kubba",
     role: "LOC CHAIRMAN",
-    photo: "/images/danba.avif",
+    photo: "/images/nansel.jpeg",
     bio: "Mr. Danbana Nansel Kubba is the LOC Chairman of the Osi-Nman Foundation, where he oversees the planning and coordination of the Foundation’s activities and programs. He is committed to community development and service.",
   },
   {
@@ -224,6 +231,13 @@ const LOC_MEMBERS = [
     photo: "/images/timman.jpg",
     bio: "Mr. Timman Kumpon is a coordinator from Langtang North, Plateau State, and an active member of the Osinman Foundation. As part of the team, he contributes to youth engagement, leadership development, and initiatives that promote education, community participation, and opportunities for young people.",
   },
+   {
+    name: "Kargwak Zhakom",
+    role: "Outreach Coordinator",
+    location: "Langtang North Plateau State",
+    photo: "/images/zhakom.jpeg",
+    bio: "Mr. Kargwak Zhakom serves as an outreach Coordinator at Osinman Foundation, joining in overseeing community engagement and supporting the Foundation’s initiatives across these communities"
+   },
  
 ];
 

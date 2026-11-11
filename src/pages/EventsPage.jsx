@@ -366,6 +366,53 @@ export default function EventsPage() {
         </div>
       </section>
 
+      {/* ---------------- CALL FOR SUPPORT ---------------- */}
+      <section className="bg-cream pb-16 md:pb-24">
+        <div className="max-w-4xl mx-auto px-6">
+          <Reveal>
+            <p className="eyebrow mb-4">Partner With Us</p>
+          </Reveal>
+          <Reveal delay={60}>
+            <h2 className="font-display font-medium mb-12" style={{ fontSize: "clamp(1.7rem, 3.5vw, 2.4rem)" }}>
+              Call for Support
+            </h2>
+          </Reveal>
+
+          <Reveal delay={120} className="reveal-pop">
+            <div className="card-event flex-col">
+              <object
+                data="/call-for-support.pdf#toolbar=1&navpanes=0"
+                type="application/pdf"
+                className="w-full rounded-xl"
+                style={{ height: "700px" }}
+              >
+                <p className="text-inksoft" style={{ fontSize: "0.95rem" }}>
+                  Your browser can't display this document here.{" "}
+                  <a
+                    href="/call-for-support.pdf"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    style={{ color: "var(--burnt)", textDecoration: "underline" }}
+                  >
+                    Open or download the PDF
+                  </a>
+                </p>
+              </object>
+
+              <a
+                href="/call-for-support.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-inksoft mt-4 inline-flex items-center gap-1.5"
+                style={{ fontSize: "0.85rem", textDecoration: "underline" }}
+              >
+                Open in a new tab / Download PDF
+              </a>
+            </div>
+          </Reveal>
+        </div>
+      </section>
+
       {/* ---------------- PAST EVENTS ---------------- */}
       <section className="bg-cream-deep py-16 md:py-24">
         <div className="max-w-6xl mx-auto px-6">

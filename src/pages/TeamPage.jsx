@@ -110,7 +110,7 @@ const EXECUTIVE_TEAM = [
     name: "Mr. Truman",
     role: "Vice President",
     location: "Abuja, FCT",
-    photo: "/images/truman.jpeg",
+    photo: "/images/truman.jpg",
     bio: "Mr. Truman is a communications specialist with experience in the development sector, specializing in strategic communications, advocacy and digital media. He has a strong track record in managing brand communications and reputation, developing IEC materials and delivering impactful campaigns. Through visual storytelling, he crafts compelling narratives that drive change, contributing to initiatives focused on justice sector reforms, inclusive political participation and humanitarian interventions in Nigeria.",
   },
   {

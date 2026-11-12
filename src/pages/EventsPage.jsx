@@ -1,5 +1,6 @@
-import React, { useEffect, useRef, useState } from "react";
+﻿import React, { useEffect, useRef, useState } from "react";
 import { Menu, X, ArrowRight, MapPin, Mail, Phone, Calendar } from "lucide-react";
+import PdfViewer from "../components/PdfViewer";
 
 /* Same design system as the rest of the site. */
 
@@ -380,24 +381,7 @@ export default function EventsPage() {
 
           <Reveal delay={120} className="reveal-pop">
             <div className="card-event flex-col">
-              <object
-                data="/call-for-support.pdf#toolbar=1&navpanes=0"
-                type="application/pdf"
-                className="w-full rounded-xl"
-                style={{ height: "700px" }}
-              >
-                <p className="text-inksoft" style={{ fontSize: "0.95rem" }}>
-                  Your browser can't display this document here.{" "}
-                  <a
-                    href="/call-for-support.pdf"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    style={{ color: "var(--burnt)", textDecoration: "underline" }}
-                  >
-                    Open or download the PDF
-                  </a>
-                </p>
-              </object>
+              <PdfViewer file="/call-for-support.pdf" />
 
               <a
                 href="/call-for-support.pdf"
